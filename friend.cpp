@@ -1,3 +1,4 @@
+// made by refresh
 #include<iostream>
 
 using namespace std;
@@ -20,13 +21,14 @@ public:
         cout << real << " + " << img << "i" << endl;
     }
    friend void sum(Complex c1, Complex c2,Complex c3);
+   
 
 };
 void sum(Complex c1, Complex c2,Complex c3){
         c3.real = c1.real + c2.real;
         c3.img = c1.img + c2.img;
     }
-int main(){
+int main(){ 
 
     Complex c1,c2,c3;
 
